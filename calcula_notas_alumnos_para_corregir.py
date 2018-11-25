@@ -8,7 +8,7 @@ def introduce_total_alumnos():
 	while total<1 or total>5:
 		total=int(input("\nError: El número total de alumnos debe estar entre 1 y 5. Vuelve a introducir el número total de alumnos: "))
 	return total
-#GABRIEL	
+
 def introduce_nombre_alumno(num_alumno,lista_nombres_alumnos):
 	i=0
 	nombre_alumno=[]
